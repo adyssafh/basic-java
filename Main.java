@@ -1,16 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    // public static void main(String[] args) {
-    // String name = "adyssa";
-    // int x = 5;
-    // int y = 6;
-    // x = 9;
-    // int sum = x + y;
-    // System.out.println("Hello, " + name);
-    // System.out.println("Result: " + sum);
-    // }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Berat:");
@@ -18,7 +8,12 @@ public class Main {
         System.out.print("Tinggi:");
         int height = sc.nextInt();
         System.out.println("BMI: " + calculateBMI(weight, height));
-        sc.close();
+
+        // array
+        // String[] pokemon = { "Pikachu", "Snorlax", "Mew", "Squirtle", "Charmander",
+        // "Dragonite" };
+        // System.out.println(pokemon[0]);
+
     }
 
     static double calculateBMI(int weight, int height) {
